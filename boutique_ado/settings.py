@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-ex9p@l)^1693vfm5j4*en7xb5ewop%(+lb7hms*e562ckay99d
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8002-gethindavies1990-boutiqu-e6zwjj4eo4.us2.codeanyapp.com']
+    '8000-gethindavies1990-boutiqu-e6zwjj4eo4.us2.codeanyapp.com']
 
 
 # Application definition
@@ -148,7 +148,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
