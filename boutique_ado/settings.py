@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-ex9p@l)^1693vfm5j4*en7xb5ewop%(+lb7hms*e562ckay99d
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8001-gethindavies1990-boutiqu-e6zwjj4eo4.us2.codeanyapp.com']
+    '8000-gethindavies1990-boutiqu-e6zwjj4eo4.us2.codeanyapp.com']
 
 
 # Application definition
